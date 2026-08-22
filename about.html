@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Your Name</title>
   <link rel="stylesheet" href="style.css">
-
-  <!--
+  <link rel="icon" type="image/png" href="favicon2.png">
+    <!--
   to use latex code 
     -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css">
@@ -14,21 +14,60 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/auto-render.min.js"></script>
 
 
-
 </head>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    renderMathInElement(document.body, {
+      delimiters: [
+        {left: "$$", right: "$$", display: true},
+        {left: "$", right: "$", display: false}
+      ]
+    });
+  });
+</script>
 
 <body>
     <header>
+        <div class="logo-group">
+            <a href="index.html" class="logo-link">
+                <img src="favicon2.png" alt="Kongsbach logo" class="logo">
+                <span class="site-name">EMIL <b>KONGSBACH</b></span>
+            </a>
+        </div>
         <h1>
             <a href="index.html" class="btn">Kongsbach</a>
+              
         </h1>
-   
+    
       <nav>
         <a href="about.html" class="btn">Go to About</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
       </nav>
+
  </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <h1>something else</h1>
 
   <p>Lorem isum dolor sit amet consectetur adipisicing elit. Totam iusto excepturi nihil? In molestias quos voluptatem debitis facilis ipsam distinctio ducimus cumque consequuntur, amet impedit, quis blanditiis laborum velit, accusantium quam tempore. Illo, assumenda. Repudiandae incidunt, delectus ad animi aut doloribus, tempora itaque iusto in quibusdam nesciunt voluptatum consequatur voluptatem!</p>
