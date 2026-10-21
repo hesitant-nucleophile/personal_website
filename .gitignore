@@ -2,6 +2,9 @@
 *
 !.gitignore
 
+# Custom domain for GitHub Pages (kongsbach.com) — must stay in the repo
+!CNAME
+
 # Let git look inside folders (e.g. CAMS/), so the rules below also apply there
 !*/
 
