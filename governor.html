@@ -3,114 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Name</title>
+  <title>Crystallization</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/png" href="favicon2.png">
-    <!--
-  to use latex code 
-    -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/auto-render.min.js"></script>
-
-
+  <link rel="icon" type="image/png" href="images/favicon2.png">
 </head>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    renderMathInElement(document.body, {
-      delimiters: [
-        {left: "$$", right: "$$", display: true},
-        {left: "$", right: "$", display: false}
-      ]
-    });
-  });
-</script>
-
 <body>
-    <header>
-        <div class="logo-group">
-            <a href="index.html" class="logo-link">
-                <img src="favicon2.png" alt="Kongsbach logo" class="logo">
-                <span class="site-name">EMIL <b>KONGSBACH</b></span>
-            </a>
-        </div>
-        <h1>
-            <a href="index.html" class="btn">Kongsbach</a>
-              
-        </h1>
-    
-      <nav>
-        <a href="about.html" class="btn">Go to About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-      </nav>
+  <div id="site-header"></div>
 
- </header>
+    <main>
+      <h1>Crystallization</h1>
+      <p>Add your page content here.</p>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <h1>something else</h1>
-
-<p>Governro regulator....</p>
-  <div class="latex-example">
-    $$
-    \begin{aligned}
-      \underline{\underline{\mathbf{x}}}^\ast=\arg\min_{\underline{\underline{\mathbf{x}}} \in \mathbb{R}^{4\times N_{face}}} \quad & \sum_{i=1}^{N_{face}}\phi_iw_i\left( 1-e^{k\cdot k_i^{\alpha,\beta}(\tilde{\underline{\underline{\mathbf{x}}}})}\right)\\
-      \text{s.t.} \quad & \frac{\partial \Delta G_{mix}}{\partial \phi_1^2} < 0\\
-      & \delta_{k,j} \geq 0 \quad \forall j,\ \forall k \in \{D, P, H\}\\
-      & \phi_j \geq 0 \quad \forall j\\
-      & \phi_j \leq \phi^{max}\\
-      & \sum_i \phi_i = 1\\
-    \end{aligned}
-    $$
+    </main>
   </div>
 
-
-
-<footer>
-  <p>&copy; 2026 Your Name</p>
-  <nav>
-    <a href="#about">About</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-  </nav>
-</footer>
+  <div id="site-footer"></div>
 
   <script src="main.js"></script>
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      if (window.renderMathInElement) {
-        renderMathInElement(document.body, {
-          delimiters: [
-            { left: "$$", right: "$$", display: true },
-            { left: "\\[", right: "\\]", display: true },
-            { left: "\\(", right: "\\)", display: false },
-            { left: "$", right: "$", display: false }
-          ],
-          throwOnError: false
-        });
-      }
-    });
-  </script>
-
 </body>
 </html>

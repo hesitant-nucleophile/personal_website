@@ -2,6 +2,9 @@
 *
 !.gitignore
 
+# Let git look inside folders (e.g. CAMS/), so the rules below also apply there
+!*/
+
 # All pages (index, about, chromo, cryzt, extr, governor, header/footer partials, ...)
 !*.html
 
@@ -9,10 +12,16 @@
 !style.css
 !main.js
 
-# Images used by the pages
-!favicon2.png
-!favicon3.png
-!profile.jpg
-
+# Images used by the pages (everything in the images folder)
 !images/
 !images/**
+
+# ...except unused favicon variants: only the ones the pages use are uploaded
+images/favicon*.png
+!images/favicon2.png
+!images/favicon3.png
+!images/favicon4.png
+
+# Videos used by the pages
+!videos/
+!videos/**
